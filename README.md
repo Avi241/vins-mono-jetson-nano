@@ -25,6 +25,13 @@ sudo vim /usr/local/cuda/include/cuda_gl_interop.h
 #Add 0 at the #define NUMPY_IMPORT_ARRAY_RETVAL in the file /usr/include/python2.7/numpy/__multiarray_api.h
 ![opencv-bridge-img](./img/cv-bridge.png)
 ```
+## After this you can also try 
+```
+git clone https://github.com/Avi241/vins-mono-jetson-nano.git
+cd vins-mono-jetson-nano
+chmod +x vins-mono-jetson-install.sh
+./vins-mono-jetson-install.sh
+```
 
 # Prerequisites
 
