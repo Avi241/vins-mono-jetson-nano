@@ -1,3 +1,4 @@
+sudo apt-get update
 sudo apt-get remove libeigen3-dev 
 cd ~/Downloads/
 wget -O eigen.zip https://gitlab.com/libeigen/eigen/-/archive/3.3.7/eigen-3.3.7.zip #check version
